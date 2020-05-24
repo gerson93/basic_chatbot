@@ -13,3 +13,4 @@
 4. Before that, we find the cosine similarity with cosine_similarity function, between the input and the content of *sent*. We look for the most similar sentence to our input, and we show it throw the last return **sent[id_sent]**.
 5. If we didn't find any similar content, if **request_tfidf == 0**
 
+The next step will be control the accurate, giving better answer, and read more article or text.
