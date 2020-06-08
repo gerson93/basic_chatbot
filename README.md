@@ -4,8 +4,9 @@
 
 ## The idea is simple:
 
-1. First we import all we need
-2. Then we read our file, and configure some things:
+1. First, we will import all we need
+
+2. Then, we will read our file, and configure some things:
    * the *content* in lower case,
    * the *stopwords* and the "stemmer" in spanish,
    * and *sent* tokenize the content sentence by sentence
