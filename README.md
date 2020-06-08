@@ -1,6 +1,7 @@
 # This is a basic chatbot
 
-## Here you have an example of chatbot with NLTK, working with a txt file about "lavado de mascarillas". You can ask for information about how you can wash your mask, and the chatbot will answer to you.
+## Here you have an example of a chatbot with NLTK, working with a txt file about "lavado de mascarillas". You can ask for information about how you can wash your mask, and the chatbot will answer you.
+
 ## The idea is simple:
 
 1. First we import all we need
