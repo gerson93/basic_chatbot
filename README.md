@@ -13,6 +13,6 @@
 
 3. The main function, *GenerateAnswer*, request for an user's input. We add this request to *sent*, and TfidfVectorizer takes the function stemmm and return to *tfidf_vectorizer_vectors* the results of the training with the content of *sent*. The function *stemmm* takes each sentence from *sent* tokenize the sentence word by word, and each tokens goes to the stemTokens function. This function *stemmize* these tokens, and returns it.
 4. Before that, we find the cosine similarity with cosine_similarity function, between the input and the content of *sent*. We look for the most similar sentence to our input, and we show it through the last return **sent[id_sent]**.
-5. If we didn't find any similar content, if **request_tfidf == 0**
+5. If we didn't find any similar content, if **request_tfidf == 0**, the chatbot will reply you with 'Disculpa, no te entendí, puedes repetir?'
 
 The next step will to control the accuracy of answers, and read more articles or texts.
